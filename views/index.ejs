@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Crypto Info API</title>
+
+		<!-- ICON -->
+		<link rel="icon" href="assets/crypto-info-api-logo.jpg" />
+
+		<!-- STYLESHEETS -->
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<div class="frame">
+			<nav>
+				<img src="public/assets/crypto-info-api-logo.jpg" alt="logo" />
+				<button id="contributors">Contributors</button>
+			</nav>
+			<main>
+				<section class="description">
+					<h1>Crypto Info API</h1>
+					<p>
+						Serves informational content for a wide
+						variety of decentralized blockchains/cryptocurrencies and
+						smart contract platforms.
+						Search for cryptocurrencies by relevant keywords.
+					</p>
+				</section>
+				<section class="api-test">
+					<form action="">
+						<input
+							type="text"
+							name=""
+							value=""
+							placeholder="keyword"
+						/>
+						<button id="keyword-btn" type="button">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</button>
+						<button type="submit" style='display: none;'></button>
+					</form>
+					<div class="result">
+						<div class='scroll-container'>
+							<ul id="result-list">
+								<!-- Loop through cryptocurrencies array and render each object to the DOM -->
+								<% for(let i = 0; i < cryptocurrencies.length; i++) { %>
+									<li>
+										<!-- JSON Format for DOM rendering -->
+										<!-- Add indentation, line break and quotes around each key's value -->
+										<pre class="json">
+											<code>
+												{
+													<div class="indent">
+														<h4>name: '<%= cryptocurrencies[i].name %>',</h4>
+														<h5>site: '<a href=<%= cryptocurrencies[i].url %> target="_blank"><%= cryptocurrencies[i].url %></a>',</h5>
+														<h4>description: '<%= cryptocurrencies[i].description %>'</h4>
+														<h5>explorer: '<a href=<%= cryptocurrencies[i].explorer %> target="_blank"><%= cryptocurrencies[i].explorer %></a>',</h5>
+														<h4>ticker: '<%= cryptocurrencies[i].ticker %>'</h4>
+														<h6 class="text-truncate">keywords: [<%= cryptocurrencies[i].keywords.map(keyword => `'${keyword}'`).join(", ") %>]</h6>
+													</div>
+												},
+											</code>
+										</pre>
+									</li>
+								<% } %>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</main>
+			<section class="documentation">
+				<h2>Documentation</h2>
+				<section class='object-table'>
+					<h3>There are 5 properties/keys that come with each resource object:</h3>
+					<table class="darkTable">
+						<thead>
+						<tr>
+						<th id='property'>PROPERTY</th>
+						<th id='description'>DESCRIPTION</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+						<td id='name'>name</td><td>[String] Name of the cryptocurrency or blockchain.</td>
+						</tr>
+						<tr>
+						<td id='url'>site</td><td>[String] Link to the cryptocurrency website.</td>
+						</tr>
+						<tr>
+						<td id='description'>description</td><td>[String] Detailed description about the cryptocurrency or blockchain. 
+						</td>
+						</tr>
+						<tr>
+						<td id='explorer'>explorer</td><td>[String] Link to the blockchain explorer.</td>
+						</tr>
+						<tr>
+						<td id='keywords'>keywords</td><td id='array'>[Array] Relevant keywords related to the cryptocurrency or blockchain.</td>
+						</tr>
+						</tbody>
+						</tr>
+					</table>
+				</section>
+				<h2>Endpoints</h2>
+				<section class='endpoints'>
+					<div class='url'>
+						<h3>Direct link to the complete cryptocurrencies object or a filtered object after using a keyword:</h3>
+						<code>https://crypto-info-api.herokuapp.com/api</code>
+						<h4>*The "/api" endpoint will return every crypto object in an array.</h4>
+						<code>https://crypto-info-api.herokuapp.com/api/<span>&lt;keyword&gt;</span></code>
+						<h4>*The "/api/keyword" endpoint accepts a keyword that will be used to search through an array of cryptocurrencies by the content the resource provides.</h4>
+					</div>
+					<div class='js-fetch'>
+						<h3>Example code-block of how to fetch with JavaScript:</h3>
+						<code id='js-example'>const URL = `https://crypto-info-api.herokuapp.com/api/<span>${keyword}</span>`;<br><br>
+							fetch(URL)<br>
+							&emsp;&emsp;&emsp;.then(res => res.json())<br>
+							&emsp;&emsp;&emsp;.then(data => console.log(data))<br>
+							&emsp;&emsp;&emsp;.catch(err => console.error(err));</code>
+					</div>
+				</section>
+			</section>
+			<h2 id='contributors-title'>Contributors</h2>
+			<section class="contributors">	
+				<div class='section'>
+					<div class='card' id='rahul'>
+						<img src="public/assets/Rahul.png" alt="Rahul's photo">
+						<div class='cont-info'>
+							<h4>Rahul Karda</h4>
+							<div class='icons'>
+								<a href='https://twitter.com/rahulkarda2002' target='_blank'><i class="fa-brands fa-twitter"></i></a>
+								<a href='https://www.linkedin.com/in/rahulkarda2002/' target='_blank'><i class="fa-brands fa-linkedin"></i></a>
+								<a href='https://github.com/rahulkarda' target='_blank'><i class="fa-brands fa-github"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer>
+				<h2>Thank You!</h2>
+
+				<br/>
+				<p>
+				- Rahul Karda.<br><br>
+				<a href='https://github.com/rahulkarda/crypto-info-api' target='_blank'><i class="fa-brands fa-github"></i></a>
+				<br><br>
+				Bugs? Features? Please report them here: <a href="https://github.com/rahulkarda/crypto-info-api/issues" target='_blank'>GitHub</a>.
+				</p>
+				<hr>
+				<p>I would love to see what you are making with this API. Please tweet at me!</p>
+			</footer>
+		</div>
+	</body>
+	<script src="js/main.js"></script>
+</html>
