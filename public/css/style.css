@@ -68,7 +68,7 @@ nav {
 }
 
 nav > img {
-	height: 100px;
+	height: 25vw;
 }
 
 /* contributors button */
@@ -636,7 +636,7 @@ hr {
 	}
 	
 	nav img {
-		height: 60px;
+		height: 50vw;
 	}
 
 	main {
@@ -694,7 +694,7 @@ hr {
 	}
 
 	nav img {
-		height: 70px;
+		height: 22vw;
 	}
 
 	main {
