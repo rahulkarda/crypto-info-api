@@ -24,7 +24,7 @@
     <a href="https://github.com/rahulkarda/crypto-info-api"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://crypto-info-api.herokuapp.com/">View Demo</a>
+    <a href="https://crypto-info-api.cyclic.app/">View Demo</a>
     ·
     <a href="https://github.com/rahulkarda/crypto-info-api/issues">Report Bug</a>
     ·
@@ -73,7 +73,7 @@ Search for cryptocurrencies by relevant keywords. This API serves informational 
 
 ## Getting Started
 
-Simply visit: <a href="https://crypto-info-api.herokuapp.com/">https://crypto-info-api.herokuapp.com/</a> and read our documentation to learn how to interact with our API! If you would like to help us out, feel free to create issues through our github repo.
+Simply visit: <a href="https://crypto-info-api.cyclic.app/">https://crypto-info-api.cyclic.app/</a> and read our documentation to learn how to interact with our API! If you would like to help us out, feel free to create issues through our GitHub repo.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
