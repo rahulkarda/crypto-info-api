@@ -111,7 +111,14 @@ const cryptocurrencies = [
 		ticker: 'VITE',
 		keywords: ['vite', 'vitex', 'coin', 'cryptocurrency', 'blockchain', 'decentralized', 'dapps', 'fast', 'nft', 'smart contracts', 'eco-friendly', 'environment friendly'],
 	},
-
+	{
+		name: 'Monero',
+		url: 'https://www.getmonero.org/',
+		description: 'Monero is a private, secure, untraceable, decentralised digital currency.',
+		explorer: 'https://monerohash.com/explorer/',
+		ticker: 'XMR',
+		keywords: ['monero', 'xmr', 'private', 'coin', 'decentralized', 'digital currency', 'cryptocurrency', 'open source', 'crypto asset'],
+	},
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
