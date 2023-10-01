@@ -119,6 +119,14 @@ const cryptocurrencies = [
 		ticker: 'XMR',
 		keywords: ['monero', 'xmr', 'private', 'coin', 'decentralized', 'digital currency', 'cryptocurrency', 'open source', 'crypto asset'],
 	},
+	{
+		name: 'Filecoin',
+		url: 'https://filecoin.io/',
+		description: 'Filecoin is an open-source cloud storage marketplace, protocol, and incentive layer.',
+		explorer: 'https://filfox.info/',
+		ticker: 'FIL',
+		keywords: ['filecoin', 'fil', 'private', 'coin', 'decentralized', 'digital currency', 'cryptocurrency', 'open source', 'crypto asset', 'cloud', 'storage'],
+	},
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
