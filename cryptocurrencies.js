@@ -135,6 +135,14 @@ const cryptocurrencies = [
 		ticker: 'MATIC',
 		keywords: ['polygon', 'matic', 'token', 'decentralized', 'cryptocurrency', 'open source', 'crypto asset'],
 	},
+	{
+		name: 'Aave',
+		url: 'https://aave.com/',
+		description: 'Aave is a decentralized finance protocol that allows people to lend and borrow crypto',
+		explorer: 'https://etherscan.io/token/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9',
+		ticker: 'AAVE',
+		keywords: ['aave', 'finance', 'token', 'decentralized', 'cryptocurrency', 'open source', 'crypto asset'],
+	},
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
