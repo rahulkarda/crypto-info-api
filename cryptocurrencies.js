@@ -127,6 +127,14 @@ const cryptocurrencies = [
 		ticker: 'FIL',
 		keywords: ['filecoin', 'fil', 'private', 'coin', 'decentralized', 'digital currency', 'cryptocurrency', 'open source', 'crypto asset', 'cloud', 'storage'],
 	},
+	{
+		name: 'Polygon',
+		url: 'https://polygon.technology/',
+		description: 'Polygon is an Ethereum token that powers the Polygon Network, a scaling solution for Ethereum.',
+		explorer: 'https://polygonscan.com/',
+		ticker: 'MATIC',
+		keywords: ['polygon', 'matic', 'token', 'decentralized', 'cryptocurrency', 'open source', 'crypto asset'],
+	},
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
