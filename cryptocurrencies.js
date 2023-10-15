@@ -143,6 +143,14 @@ const cryptocurrencies = [
 		ticker: 'AAVE',
 		keywords: ['aave', 'finance', 'token', 'decentralized', 'cryptocurrency', 'open source', 'crypto asset'],
 	},
+	{
+			name:'uniswap',
+			url:'https://uniswap.org/',
+			description:'The Uniswap platform enables users to trade cryptocurrencies without any involvement with a centralized third party.',
+			explorer:'https://info.uniswap.org/#/',
+			ticker:'uniswap',
+			keywords:['uniswap', 'finance', 'token', 'decentralized', 'cryptocurrency', 'open source', 'crypto asset'],
+	},
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
