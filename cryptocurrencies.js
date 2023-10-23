@@ -151,6 +151,14 @@ const cryptocurrencies = [
 			ticker:'uniswap',
 			keywords:['uniswap', 'finance', 'token', 'decentralized', 'cryptocurrency', 'open source', 'crypto asset'],
 	},
+	{
+			name: 'Arbitrum',
+			url: 'https://arbitrum.io/',
+			description: 'Arbitrum is a Layer 2 scaling solution for the Ethereum blockchain that powers fast smart contract transactions while reducing transaction costs.',
+			explorer: 'https://arbiscan.io/',
+			ticker: 'ARB',
+			keywords: ['arbitrum','ARB', 'finance', 'token', 'decentralized', 'cryptocurrency', 'open source', 'crypto asset'],
+		},
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
