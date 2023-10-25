@@ -159,6 +159,14 @@ const cryptocurrencies = [
 			ticker: 'ARB',
 			keywords: ['arbitrum','ARB', 'finance', 'token', 'decentralized', 'cryptocurrency', 'open source', 'crypto asset'],
 		},
+		{
+			name: 'Cardano',
+			url: 'https://cardano.org/',
+			description: 'Cardano is an ecosystem that allows other developers to create tokens, decentralized applications, or other use cases for scalable blockchain network.',
+			explorer: 'https://explorer.cardano.org/',
+			ticker: 'ADA',
+			keywords: ['cardano','ADA','finance', 'token', 'decentralized', 'cryptocurrency', 'open source', 'crypto asset']
+		},
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
