@@ -160,12 +160,12 @@ const cryptocurrencies = [
 			keywords: ['arbitrum','ARB', 'finance', 'token', 'decentralized', 'cryptocurrency', 'open source', 'crypto asset'],
 		},
 		{
-			name: 'Cardano',
-			url: 'https://cardano.org/',
-			description: 'Cardano is an ecosystem that allows other developers to create tokens, decentralized applications, or other use cases for scalable blockchain network.',
-			explorer: 'https://explorer.cardano.org/',
-			ticker: 'ADA',
-			keywords: ['cardano','ADA','finance', 'token', 'decentralized', 'cryptocurrency', 'open source', 'crypto asset']
+			name: 'Polkadot',
+			url: 'https://www.polkadot.network/',
+			description: 'Polkadot is a protocol that connects blockchains,thus allowing value and data to be sent across previously incompatible networks.',
+			explorer: 'https://explorer.polkascan.io/polkadot',
+			ticker: 'DOT',
+			keywords: ['polkadot','DOT','finance', 'token','coin', 'decentralized', 'cryptocurrency','transparent','open source', 'crypto asset']
 		},
 	// 	Resource Format - please follow the styling below.
 	// 	{
