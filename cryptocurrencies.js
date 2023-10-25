@@ -159,6 +159,14 @@ const cryptocurrencies = [
 			ticker: 'ARB',
 			keywords: ['arbitrum','ARB', 'finance', 'token', 'decentralized', 'cryptocurrency', 'open source', 'crypto asset'],
 		},
+		{
+			name: 'Polkadot',
+			url: 'https://www.polkadot.network/',
+			description: 'Polkadot is a protocol that connects blockchains,thus allowing value and data to be sent across previously incompatible networks.',
+			explorer: 'https://explorer.polkascan.io/polkadot',
+			ticker: 'DOT',
+			keywords: ['polkadot','DOT','finance', 'token','coin', 'decentralized', 'cryptocurrency','transparent','open source', 'crypto asset']
+		},
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
