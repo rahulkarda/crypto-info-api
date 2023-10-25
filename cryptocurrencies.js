@@ -167,6 +167,14 @@ const cryptocurrencies = [
 			ticker: 'DOT',
 			keywords: ['polkadot','DOT','finance', 'token','coin', 'decentralized', 'cryptocurrency','transparent','open source', 'crypto asset']
 		},
+			{
+			name: 'Avalanche',
+			url: 'https://www.avax.network/',
+			description: 'Avalanche is a competitor to Ethereum that prioritizes scalability and transaction processing speed and AVAX is used to secure the Avalanche blockchain.',
+			explorer: 'https://avascan.info/',
+			ticker: 'AVAX',
+			keywords: ['avalanche','AVAX','smart contracts','token', 'decentralized', 'cryptocurrency', 'open source', 'crypto asset']
+		},
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
