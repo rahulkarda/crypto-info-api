@@ -175,6 +175,14 @@ const cryptocurrencies = [
 			ticker: 'AVAX',
 			keywords: ['avalanche','AVAX','smart contracts','token', 'decentralized', 'cryptocurrency', 'open source', 'crypto asset']
 		},
+			{
+			name: 'Cosmos',
+			url: 'https://cosmos.network/',
+			description: 'Cosmos (ATOM) is a cryptocurrency that powers an ecosystem of blockchains designed to scale and interoperate with each other. Cosmos is a proof-of-stake chain.',
+			explorer: 'https://atomscan.com/',
+			ticker: 'ATOM',
+			keywords: ['cosmos','ATOM','smart contracts','token', 'decentralized', 'cryptocurrency', 'open source', 'crypto asset']
+		},
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
