@@ -191,6 +191,14 @@ const cryptocurrencies = [
 		ticker: 'DOT',
 		keywords: ['polkadot', 'dot', 'coin', 'decentralized', 'layer-0'],
 	},
+	{
+		name: 'Hedera',
+		url: 'https://hedera.com',
+		description: 'Hedera is a decentralized, open-source, proof-of-stake public ledger that utilizes the leaderless, asynchronous Byzantine Fault Tolerance.',
+		explorer: 'https://hederaexplorer.io',
+		ticker: 'HBAR',
+		keywords: ['hedera', 'hbar', 'coin', 'decentralized', 'pos', 'open-source'],
+	},
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
