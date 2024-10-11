@@ -183,6 +183,14 @@ const cryptocurrencies = [
 			ticker: 'ATOM',
 			keywords: ['cosmos','ATOM','smart contracts','token', 'decentralized', 'cryptocurrency', 'open source', 'crypto asset']
 		},
+	{
+		name: 'Polkadot',
+		url: 'https://polkadot.com',
+		description: 'Polkadot is a blockchain network of networks designed to challenge our assumptions, directed and governed by those who hold the DOT token',
+		explorer: 'https://polkadot.subscan.io',
+		ticker: 'DOT',
+		keywords: ['polkadot', 'dot', 'coin', 'decentralized', 'layer-0'],
+	},
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
