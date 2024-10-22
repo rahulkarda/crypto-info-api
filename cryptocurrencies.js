@@ -199,6 +199,14 @@ const cryptocurrencies = [
 		ticker: 'STRK',
 		keywords: ['starknet', 'strk', 'rollup', 'decentralized', 'layer2'],
 	},
+	{
+		name: 'Axie Infinity',
+		url: 'https://axieinfinity.com',
+		description: 'Axie Infinity Shards are an ERC 20 governance token for the Axie universe.',
+		explorer: 'https://classic.axieinfinity.com/explorer/cards',
+		ticker: 'AXS',
+		keywords: ['axie infinity', 'axs', 'game', 'token', 'game token'],
+	},
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
