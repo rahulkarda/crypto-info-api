@@ -184,20 +184,20 @@ const cryptocurrencies = [
 			keywords: ['cosmos','ATOM','smart contracts','token', 'decentralized', 'cryptocurrency', 'open source', 'crypto asset']
 		},
 	{
-		name: 'Polkadot',
-		url: 'https://polkadot.com',
-		description: 'Polkadot is a blockchain network of networks designed to challenge our assumptions, directed and governed by those who hold the DOT token',
-		explorer: 'https://polkadot.subscan.io',
-		ticker: 'DOT',
-		keywords: ['polkadot', 'dot', 'coin', 'decentralized', 'layer-0'],
-	},
-	{
 		name: 'Hedera',
 		url: 'https://hedera.com',
 		description: 'Hedera is a decentralized, open-source, proof-of-stake public ledger that utilizes the leaderless, asynchronous Byzantine Fault Tolerance.',
 		explorer: 'https://hederaexplorer.io',
 		ticker: 'HBAR',
 		keywords: ['hedera', 'hbar', 'coin', 'decentralized', 'pos', 'open-source'],
+	},
+	{
+		name: 'Starknet',
+		url: 'https://www.starknet.io',
+		description: 'Starknet is a Validity Rollup that provides unlimited scale while retaining Ethereum\'s security and decentralization.',
+		explorer: 'https://starkscan.co',
+		ticker: 'STRK',
+		keywords: ['starknet', 'strk', 'rollup', 'decentralized', 'layer2'],
 	},
 	// 	Resource Format - please follow the styling below.
 	// 	{
