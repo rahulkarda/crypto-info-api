@@ -207,6 +207,14 @@ const cryptocurrencies = [
 		ticker: 'AXS',
 		keywords: ['axie infinity', 'axs', 'game', 'token', 'game token'],
 	},
+	{
+		name: 'The Graph',
+		url: 'https://thegraph.com',
+		description: 'The Graph is an indexing protocol for organizing blockchain data and making it easily accessible with GraphQL.',
+		explorer: 'https://thegraph.com/explorer',
+		ticker: 'GRT',
+		keywords: ['the graph', 'GRT', 'protocol', 'decentralized', 'token'],
+	},
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
