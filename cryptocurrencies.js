@@ -183,6 +183,38 @@ const cryptocurrencies = [
 			ticker: 'ATOM',
 			keywords: ['cosmos','ATOM','smart contracts','token', 'decentralized', 'cryptocurrency', 'open source', 'crypto asset']
 		},
+	{
+		name: 'Hedera',
+		url: 'https://hedera.com',
+		description: 'Hedera is a decentralized, open-source, proof-of-stake public ledger that utilizes the leaderless, asynchronous Byzantine Fault Tolerance.',
+		explorer: 'https://hederaexplorer.io',
+		ticker: 'HBAR',
+		keywords: ['hedera', 'hbar', 'coin', 'decentralized', 'pos', 'open-source'],
+	},
+	{
+		name: 'Starknet',
+		url: 'https://www.starknet.io',
+		description: 'Starknet is a Validity Rollup that provides unlimited scale while retaining Ethereum\'s security and decentralization.',
+		explorer: 'https://starkscan.co',
+		ticker: 'STRK',
+		keywords: ['starknet', 'strk', 'rollup', 'decentralized', 'layer2'],
+	},
+	{
+		name: 'Axie Infinity',
+		url: 'https://axieinfinity.com',
+		description: 'Axie Infinity Shards are an ERC 20 governance token for the Axie universe.',
+		explorer: 'https://classic.axieinfinity.com/explorer/cards',
+		ticker: 'AXS',
+		keywords: ['axie infinity', 'axs', 'game', 'token', 'game token'],
+	},
+	{
+		name: 'The Graph',
+		url: 'https://thegraph.com',
+		description: 'The Graph is an indexing protocol for organizing blockchain data and making it easily accessible with GraphQL.',
+		explorer: 'https://thegraph.com/explorer',
+		ticker: 'GRT',
+		keywords: ['the graph', 'GRT', 'protocol', 'decentralized', 'token'],
+	},
 	// 	Resource Format - please follow the styling below.
 	// 	{
 	// 		name: '',
